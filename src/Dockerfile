@@ -1,6 +1,6 @@
 FROM node:12.18.3
 
-WORKDIR /FrontEnd_Sanad
+WORKDIR /FrontEnd_Sanad/src
 
 COPY . .
 COPY ["package.json", "package-lock.json", "./"]
