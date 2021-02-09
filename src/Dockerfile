@@ -1,6 +1,6 @@
 FROM node:12.18.3
 
-WORKDIR /app
+WORKDIR /src/app
 COPY ["package.json", "package-lock.json", "./src"]
 
 RUN npm install --production
